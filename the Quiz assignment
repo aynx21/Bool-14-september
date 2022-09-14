@@ -1,0 +1,90 @@
+#include <iostream>
+using namespace std ;
+int main() {
+    
+    bool name = false ;
+  
+    int answer, Y, N, grade ;
+    //basic info of the candidate
+    cout << "Please enter your name : \n " ;
+    cin>>name;
+    cout << "Please enter the grade you are studying : \n " ;
+    cin>>grade;
+    //questions
+    cout<<"***Now get ready for the questions*** \n \n " ;
+    cout<<"Question Number 1 \n " ;
+    cout<<"CPU stands for Central processing unit? \n " ;
+    cin>>answer;
+    if (answer = Y)
+    {
+        name = true;
+    }
+    if (name)
+    { cout<<"Correct Answer \n";
+                         }
+    else {
+        cout<<"Your answer is wrong, Ghar jaa wapis! \n"  ;
+    }
+    //question number 2
+    cout<<"Laptop is a mainframe computer?  \n " ;
+    cin>>answer;
+     if (answer = Y)
+    {
+        name = true;
+    }
+    if (name)
+    { cout<<"Correct Answer: \n";
+                         }
+    else {
+        cout<<"Your answer is wrong, Ghar jaa wapis! \n"  ;
+    }
+    
+    //question no 3
+    
+    cout<<"Is the principal good? \n" ;
+    cin>>answer ;
+    
+     if (answer = N)
+    {
+        name = true;
+    }
+    if (name)
+    { cout<<"Correct Answer \n";
+                         }
+    else {
+        cout<<"You are an ****, Ghar jaa wapis! \n"   ;
+}
+    //question number 4
+    
+    cout<<"Will your sacrifice your life for Pakistan? \n" ;
+    cin>>answer;
+    
+     if (answer = Y)
+    {
+        name = true;
+    }
+    if (name)
+    { cout<<"Pakistaan Zindabaad \n" ;
+                         }
+    else {
+        cout<<"Buzdil, Ghar jaa wapis! \n"  ;
+    }
+    
+    //question number 5
+    
+    cout<<"kat gaya tera bhi? \n " ;
+    cin>>answer ;
+    
+     if (answer = Y)
+    {
+        name = true;
+    }
+    if (name)
+    { cout<<"Sab ka kategaa ;) \n " ;
+                         }
+    else {
+        cout<<"ayyy bhai, jhooot mat bolo naaa /n"  ;
+    }
+    
+    
+}
